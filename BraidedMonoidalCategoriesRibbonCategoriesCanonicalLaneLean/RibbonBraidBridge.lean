@@ -1,0 +1,11 @@
+import HautevilleHouse.BraidedMonoidalCategoriesRibbonCategoriesCanonicalLaneLean.FinalTheorem
+
+namespace HautevilleHouse
+namespace BraidedMonoidalCategoriesRibbonCategoriesCanonicalLaneLean
+
+theorem ribbon_braid_bridge (A : AdmissibleClass) :
+    ConstrainedBraidedRibbonClosure A := by
+  exact constrained_braided_ribbon_endgame A
+
+end BraidedMonoidalCategoriesRibbonCategoriesCanonicalLaneLean
+end HautevilleHouse
